@@ -7,6 +7,7 @@ public class Main {
         System.setProperty("webdriver.chrome.driver","/Users/seekekrishna/eclipse-workspace/Microsite_V1/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.embibe.com/");
+        driver.getTitle();
 
 
 
