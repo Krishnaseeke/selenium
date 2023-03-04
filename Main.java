@@ -8,6 +8,7 @@ public class Main {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.embibe.com/");
         driver.getTitle();
+          System.out.println();
 
 
 
