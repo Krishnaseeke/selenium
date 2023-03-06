@@ -1,16 +1,14 @@
-<<<<<<< HEAD
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-=======
 
->>>>>>> 6945cc49c7e337034e1d73cb05c46a8549bc2873
 
 import java.time.Duration;
 
 public class Main {
-<<<<<<< HEAD
+
     public static void main(String [] args) throws InterruptedException {
         System.out.println("Hi Krishna");
         System.setProperty("webdriver.chrome.driver", "/Users/pratikshatake/Documents/demo1/chromedriver");
@@ -30,12 +28,8 @@ public class Main {
 
 
 
-=======
-    public static void main(String [] args){
-            System.out.println("Hi Krishna");
-           BrowserLaunch.driver.get("https://www.embibe.com/");
-           BrowserLaunch.driver.getTitle();
->>>>>>> 6945cc49c7e337034e1d73cb05c46a8549bc2873
+
+
 
 
 
