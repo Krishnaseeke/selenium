@@ -17,8 +17,20 @@ public class Alert {
         Thread.sleep(5000);
         org.openqa.selenium.Alert alt = driver.switchTo().alert();
         System.out.println(alt.getText());
-        alt.accept();
+        String text = alt.getText();
+        if(text.equals("Please enter a valid user name")) {
+            System.out.println("Title is correct");
+        }
+            else{
+                System.out.println("Title is incorrect" );
+
+
+        }
+            alt.accept();
+        }
+
+
 
     }
-}
+
 

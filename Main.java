@@ -24,7 +24,7 @@ public class Main {
         //driver.findElement(By.xpath(" //*[contains(text(),'Log in')]")).click();
         //Thread.sleep(5000);
         //Alert alt = driver.switchTo().alert();
-       //System.out.println(alt.getText());
+       //System.out.println(alt.getText("));
 
 
 
