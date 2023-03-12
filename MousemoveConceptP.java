@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
+
 
 public class MousemoveConceptP {
 
@@ -20,6 +20,7 @@ public class MousemoveConceptP {
         //driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 
         driver.get("https://www.spicestyle.com/");
+
 
         Actions act = new Actions(driver);
         act.moveToElement(driver.findElement(By.linkText("Electronics"))).build().perform();
