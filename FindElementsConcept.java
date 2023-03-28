@@ -19,7 +19,7 @@ public class FindElementsConcept {
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        driver.get("https://www.spicestyle.com/");
+        driver.get("https://www.embibe.com/questions/Use-Eclid%E2%80%99s-division-algorithm-to-find-the-HCF-of-135-and-225./EM1929636");
         //Get the count of the link in the page
         //Get text of the each link on the page
 
@@ -29,6 +29,12 @@ public class FindElementsConcept {
 
         //Get the size of the links
        System.out.println(linklist.size());
+
+       //To Print the Text of the links
+        for (WebElement webElement : linklist) {
+            String linktext = webElement.getText();
+            System.out.println(linktext);
+        }
 
 
     }
