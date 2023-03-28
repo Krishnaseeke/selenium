@@ -27,15 +27,5 @@ public class FindElementsConcept {
         List < WebElement> linklist = driver.findElements(By.tagName("a"));
 
 
-        //Get the size of the links
-       System.out.println(linklist.size());
-
-       //To Print the Text of the links
-       for(int i=0;i< linklist.size(); i++) {
-           String linktext= linklist.get(i).getText();
-           System.out.println(linktext);
-       }
-
-
     }
 }
