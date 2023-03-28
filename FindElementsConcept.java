@@ -31,10 +31,17 @@ public class FindElementsConcept {
        System.out.println(linklist.size());
 
        //To Print the Text of the links
+<<<<<<< HEAD
         for (WebElement webElement : linklist) {
             String linktext = webElement.getText();
             System.out.println(linktext);
         }
+=======
+       for(int i=0;i< linklist.size(); i++) {
+           String linktext= linklist.get(i).getText();
+           System.out.println(linktext);
+       }
+>>>>>>> e24ca6ce2b3a2128b4b250084381eb5b535d7ded
 
 
     }
