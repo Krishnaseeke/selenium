@@ -6,6 +6,7 @@ public class LocatorsConcept {
     public static void main(String [] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver","/Users/seekekrishna/eclipse-workspace/Microsite_V1/chromedriver");
         WebDriver driver = new ChromeDriver();
+
         driver.get("https://www.embibe.com/questions/The-functional-unit-of-lung-is/EM2853418");
         //driver.get("https://www.embibe.com/login");
         Thread.sleep(3000);
