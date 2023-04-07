@@ -1,8 +1,9 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-//import org.openqa.selenium.chrome.ChromeDriver;
+
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 
 import java.time.Duration;
 import java.util.List;
@@ -13,6 +14,9 @@ public class FindElementsConcept {
         System.setProperty("webdriver.edge.driver", "/Users/pratikshatake/Documents/demo1/msedgedriver");
 
         WebDriver driver = new EdgeDriver();
+        EdgeOptions options = new EdgeOptions();
+        options.addArguments("--remote-allow-origins=*");
+        EdgeDriver driver1  = new EdgeDriver(options);
 
         driver.manage().window().maximize(); //To maximize the window
         driver.manage().deleteAllCookies(); //To Delete all the Cookies
